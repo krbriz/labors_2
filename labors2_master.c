@@ -4,9 +4,17 @@ int main(){
 float a, b=1.5*M_PI, x, delta_x=1e-3 /*0.001*/, funkca,funkcb,funkcx;
 int k=0;
 
-printf("Ievadi A b un delta_x: ");
+printf("Ievadi a veertiibu: ");
 fflush(stdin);
-scanf("%f", &a, &b, &x);
+scanf("%f", &a);
+
+printf("Ievadi b veertiibu: ");
+fflush(stdin);
+scanf("%f", &b);
+
+printf("Ievadi delta_x: ");
+fflush(stdin);
+scanf("%f", &x);
 
 
 funkca=sin(a);funkcb=sin(b);
